@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <title>tabalho 2</title>
+</head>
+<body>
+    <!-- Inicio Header -->
+    <header>
+        <nav>
+            <h1 class="titulo"><a href="../index.html">Peliculas Clean</a></h1>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#sobre">Sobre</a> </li>
+                <li class="sub-menuP"><a href="#">Produtos</a>
+                    <ul class="pro">
+                        <li><a href="PeliculasJateadas.html">Película Jateada</a></li>
+                        <li><a href="PeliculasEspelhadas.html">Película Espelhada</a></li>
+                        <li><a href="PeliculasG5.html">Película G5</a></li>
+                        <li><a href="PeliculasAutomotivas.html">Película Automotiva</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menuS"><a href="#">Serviços</a>
+                    <ul class="ser">
+                        <li><a href="ColocarPelicula.html">Colocar Película</a></li>
+                        <li><a href="RetirarPelicula.html">Retirar Película</a></li>
+                        <li><a href="LRPelicula.html">Limpeza e Revitalização</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+            <div style="clear: both"></div>
+        </nav>
+        <div class="responsive-nav">
+            <h3 class="titulo"><a href="#">Peliculas Clean</a></h3>
+            <h4 class="menu">Menu</h4>
+            <div style="clear: both"></div>
+            <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $(".menu").click(function(){
+                        $("nav").slideToggle(500);
+                        /*$("ul li").toggleClass("active");*/
+                    })
+                })
+            </script>
+        </div>
+    </header>
+    <!-- Fim header -->
+
+    <!-- Inicio Banner Home e Titulo da página -->
+    <div class="banner-pages"></div>
+    <div class="titulo-pages">
+        <h2>Produtos</h2>
+    </div>  
+    <!-- Fim Banner Home -->
+
+    <!-- Inicio do Container (Possui todo o corpo da página) -->
+    <div class="container">
+        <div class="endereco-atual">
+            <a href="../index.html"><i class="fas fa-home">Home</i></a> <span> > </span>Produtos<span> > </span>Películas Jateadas
+            <div class="separador"></div>
+        </div>
+        <section class="conteudo"> 
+            <div class="info-conteudo">
+                <h1>Películas Jateadas</h1>
+                <p>Peliculas Jateadas para vidro residencial e comercial.</p>
+                <a href="#descricao"><h3>Descrição do Produto</h3></a>
+                <a href="#ficha-tecnica"><h3>Ficha Técnica</h3></a>
+                <a href="Contato.html"><h3>Entrar em Contato</h3></a>
+            </div>
+
+            <div class="img-conteudo img-jateada"></div>
+            
+            <div id="descricao">
+               <div class="separador"></div>
+                <h2>Descrição</h2>
+                <p>Para quem deseja uma opção bonita, elegante e cheia de estilo para personalizar e decorar os vidros de sua empresa ou escritório, a Película Decorativa para Vidro Comercial "Jateado Leitoso Branco" é uma excelente opção, sendo desenvolvida para garantir conforto e beleza para sua empresa. Essa linha de película tem acabamento de qualidade e pode ser utilizada em diversos tipos de ambientes, garantindo facilidade de aplicação e conforto para sua empresa.</p>
+            </div>
+
+            <div id="ficha-tecnica">
+                <div class="separador"></div>
+                <h2>Ficha Técnica</h2>
+                <table border="1" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <th>Tipo de película:</th>
+                        <td>Decorativa</td>
+                    </tr>
+                    <tr>
+                        <th>Uso Indicado</th>
+                        <td>Vidros Comerciais</td>
+                    </tr>
+                    <tr>
+                        <th>Aplicação</th>
+                        <td>Interna</td>
+                    </tr>
+                    <tr>
+                        <th>Principais Benefícios:</th>
+                        <td>Controle visual, privacidade, proteção contra e design.</td>
+                    </tr>
+                    <tr>
+                        <th>Coloração:</th>
+                        <td>Efeito Especial</td>
+                    </tr>
+                    <tr>
+                        <th>Transparência:</th>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <th>Grau de Privacidade:</th>
+                        <td>Alta</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </div>  
+    <!-- Fim do container -->
+
+    <!-- Inicio Footer -->
+    <div class="footer">
+        <div class="footer-logo">
+            <a href="../index.html">Peliculas Clean</a>
+        </div>
+        <div class="endereco">
+            <ul>
+                <li>Rua dos bobos, 0 - Centro</li>
+                <li>Santa Maria, RS</li>
+                <li>(55) 3222-9999 <i class="fas fa-tty"></i></li> 
+                <li>(55) 9 9999-9999 <i class="fab fa-whatsapp"></i></li>
+                <li><b>Horário de Atendimento:</b></li>
+                <li>Seg-Sex: 8:30-12:00 / 13:30-18:00</li>
+                <li>Sábado: 8:30-12:00</li>
+            </ul>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>   
+</body>
